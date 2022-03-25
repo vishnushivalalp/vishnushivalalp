@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -70,7 +65,7 @@ body {
 }
 
 [tabindex="-1"]:focus {
-  outline: 0 !important;
+  outline: 0;
 }
 
 hr {
@@ -355,7 +350,7 @@ template {
 }
 
 [hidden] {
-  display: none !important;
+  display: none;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -6530,35 +6525,35 @@ button.bg-dark:focus {
 }
 
 .flex-row {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: normal !important;
-  -ms-flex-direction: row !important;
-  flex-direction: row !important;
+  -webkit-box-orient: horizontal ;
+  -webkit-box-direction: normal ;
+  -ms-flex-direction: row;
+  flex-direction: row ;
 }
 
 .flex-column {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: normal !important;
-  -ms-flex-direction: column !important;
-  flex-direction: column !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal ;
+  -ms-flex-direction: column ;
+  flex-direction: column;
 }
 
 .flex-row-reverse {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: reverse !important;
-  -ms-flex-direction: row-reverse !important;
-  flex-direction: row-reverse !important;
+  -webkit-box-orient: horizontal ;
+  -webkit-box-direction: reverse ;
+  -ms-flex-direction: row-reverse ;
+  flex-direction: row-reverse;
 }
 
 .flex-column-reverse {
-  -webkit-box-orient: vertical !important;
-  -webkit-box-direction: reverse !important;
-  -ms-flex-direction: column-reverse !important;
-  flex-direction: column-reverse !important;
+  -webkit-box-orient: vertical ;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse ;
+  flex-direction: column-reverse ;
 }
 
 .flex-wrap {
-  -ms-flex-wrap: wrap !important;
+  -ms-flex-wrap: wrap ;
   flex-wrap: wrap !important;
 }
 
