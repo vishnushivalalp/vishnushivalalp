@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 body{
 	padding:0;
 	margin:0;
@@ -46,11 +41,6 @@ img{
 	width:100%;
 }
 
-
-/* header */
-
-.navbar {
-}
 
 .title-text{
     font-weight: bold;
@@ -151,9 +141,6 @@ header {
     width: 100%;
 }
 
-/*-- //header --*/
-
-/*-- banner --*/
 .banner{
 	background:url(../images/bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -227,9 +214,7 @@ header {
     border: 2px solid #fff;
     color: #333;
 }
-/*-- // banner --*/
 
-/*--  about --*/
 .about-grids h4 {
     font-size: 22px;
     line-height: 30px;
@@ -282,8 +267,7 @@ header {
 h3.skills_w3 {
     color: #0cbb67;
 }
-/*-- //skills --*/
-/*-- /extra skills --*/
+
 h3.agile_tittle.two {
     color: #252525;
 }
@@ -311,7 +295,7 @@ h3.agile_tittle.two {
     color: #ffffff;
     letter-spacing: 1px;
     margin-bottom: 1.4em;
-    /* border-bottom: 1px dashed #ffffff; */
+    
     padding-bottom: 0em;
     font-weight: 600;
 }
@@ -378,10 +362,7 @@ h3.heading:after {
 .about-grids {
     margin-top: 5em;
 }
-/*-- // about --*/
 
-
-/*--  services --*/
 .services {
     background: #191919;
 }
@@ -413,9 +394,7 @@ h3.heading:after {
     letter-spacing: .5px;
     font-size: 15px;
 }
-/*-- // services --*/
 
-/*-- experience --*/
 .exp-grids {
     margin-top: 5em;
 }
@@ -459,9 +438,7 @@ h3.heading:after {
     padding-left: 3em;
      background: #222;
 }
-/*-- //experience --*/
 
-/*-- blog -*/
 .blog {
     background: url(../images/blog.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -534,9 +511,7 @@ h4.left-grid-blog {
     letter-spacing: 2px;
 	margin-bottom: .7em;
 }
-/*-- //blog -*/
 
-/*-- projects --*/
 .project-grids{
 	padding-top:5em;
 }
@@ -585,9 +560,7 @@ a.sb {
 		left: 125%;
 	}
 }
-/*-- //projects --*/
 
-/*-- clients--*/
 .testimonials {
     background: #333;
 	background:url(../images/test.jpg) no-repeat 0px 0px;
@@ -647,9 +620,7 @@ i.fa.fa-quote-right, i.fa.fa-quote-left {
     margin: 0 1em;
     color: #fff;
 }
-/*-- //clients--*/
 
-/*--  contact --*/
 .contact-grids {
     margin-top: 5em;
 }
@@ -722,9 +693,7 @@ label {
     min-height: 120px;
     resize: none;
 }
-/*-- // contact --*/
 
-/*-- footer --*/
 footer {
     background: #191919;
 }
@@ -770,9 +739,7 @@ footer {
 .copyright a:hover {
     color: #fff;
 }
-/*-- //footer --*/
 
-/*-- to-top --*/
 #toTop {
 	display: none;
      text-decoration: none;
@@ -799,10 +766,7 @@ footer {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
-/*-- //to-top --*/
 
-
-/*-- Responsive Design --*/
 
 @media(max-width:1080px) {
 	.banner-layer,.banner {
