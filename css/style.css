@@ -333,7 +333,7 @@ h3.agile_tittle.two {
 }
 
 .prgs-w3agile-last {
-    margin-bottom: 0!important;
+    margin-bottom: 0;
 }
 
 .progress-bar {
@@ -355,7 +355,7 @@ h3.agile_tittle.two {
 
 .progress-striped .progress-bar,
 .progress-bar-striped {
-    background-image: none!important;
+    background-image: none;
 }
 
 h3.heading {
